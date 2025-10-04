@@ -1,6 +1,6 @@
 import React from "react";
-import sword from "../assets/photos/loader.svg";
-import backgroundImage from "../assets/photos/Home_Page.jpg";
+import sword from "../../assets/photos/loader.svg";
+import backgroundImage from "../../assets/photos/Home_Page.jpg";
 
 const Loader = () => {
   return (

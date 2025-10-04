@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import "./Event.css";
-import img1 from '../assets/photos/IMG_0499.jpg';
-import img2 from '../assets/photos/IMG_0532.jpg';
-import img3 from '../assets/photos/IMG_0540.jpg';
-import img4 from '../assets/photos/IMG_5583.jpg';
-import img5 from '../assets/photos/IMG_5587.jpg';
-import img6 from '../assets/photos/IMG_5592.jpg';
+import img1 from '../../assets/photos/IMG_0499.jpg';
+import img2 from '../../assets/photos/IMG_0532.jpg';
+import img3 from '../../assets/photos/IMG_0540.jpg';
+import img4 from '../../assets/photos/IMG_5583.jpg';
+import img5 from '../../assets/photos/IMG_5587.jpg';
+import img6 from '../../assets/photos/IMG_5592.jpg';
 
 const imgUrls = [img1, img2, img3, img4, img5, img6];
 
