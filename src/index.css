@@ -67,3 +67,8 @@ body{
 }
 
 
+@media (max-width: 767px), (min-width: 1025px) {
+  .mdHidden {
+    display: none;
+  }
+}
