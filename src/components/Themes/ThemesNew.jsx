@@ -92,7 +92,7 @@ function BigTheme(props) {
 		<>
 			<section
 				className="max-md:hidden flex flex-col justify-center items-center text-white w-[75%] mt-11 backdrop-blur-sm p-4 font-kode rounded-lg"
-				id="themes"
+				id="theme"
 			>
 				{/* carousel */}
 				<h3 className="text-[aliceblue] text-[2.5rem] text-center font-kode font-extrabold m-8">Themes</h3>

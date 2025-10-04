@@ -20,8 +20,14 @@ function Normalnav() {
                     About
                 </button>
                 <button
+                    onClick={() => scrollToSection('#theme')}
+                    className="max-md:hidden block w-max no-underline px-2.5 text-lg rounded-[30px] transition-all hover:rounded-[72px] hover:bg-[#bb13fe81] hover:shadow-[0_0_0.2rem_#fff,0_0_0.2rem_#fff,0_0_0.5rem_#bc13fe,0_0_0.5rem_#bc13fe,inset_0_0_0.5rem_#bc13fe]"
+                >
+                    Themes
+                </button>
+                <button
                     onClick={() => scrollToSection('#themes')}
-                    className="block w-max no-underline px-2.5 text-lg rounded-[30px] transition-all hover:rounded-[72px] hover:bg-[#bb13fe81] hover:shadow-[0_0_0.2rem_#fff,0_0_0.2rem_#fff,0_0_0.5rem_#bc13fe,0_0_0.5rem_#bc13fe,inset_0_0_0.5rem_#bc13fe]"
+                    className="block w-max no-underline px-2.5 text-lg rounded-[30px] transition-all hover:rounded-[72px] hover:bg-[#bb13fe81] hover:shadow-[0_0_0.2rem_#fff,0_0_0.2rem_#fff,0_0_0.5rem_#bc13fe,0_0_0.5rem_#bc13fe,inset_0_0_0.5rem_#bc13fe] mdHidden"
                 >
                     Themes
                 </button>
