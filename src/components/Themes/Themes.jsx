@@ -1,4 +1,3 @@
-
 export default function Themes() {
     let themes = ["AI/ML", "Education", "Health", "Web-3", "Open Innovation", "AR-VR"];
     return (
